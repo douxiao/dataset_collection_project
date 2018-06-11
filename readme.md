@@ -29,9 +29,11 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)　可以设置摄像头的分辨率。
 
 　　说明该功能是参考: [labelImg](https://github.com/tzutalin/labelImg)
     针对VOC数据集：
-    OpenDir　选择工程目录下 save_img；
+    
+    OpenDir　选择工程目录下 save_img
     Change Save Dir 选择工程目录下 save_img_xml
-    ![](http://ow7va355d.bkt.clouddn.com/labelimg.png)
+    
+ ![](http://ow7va355d.bkt.clouddn.com/labelimg.png)
     
  ![](http://ow7va355d.bkt.clouddn.com/kuaijie.png)
     
