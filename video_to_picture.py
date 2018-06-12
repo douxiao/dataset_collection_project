@@ -3,13 +3,13 @@ import  cv2
 video_path = 'video/4k.MOV'
 vid_cap = cv2.VideoCapture(video_path)  # 读入视频文件
 i = 1
-c = 0
+c = 625  # 该常量用来调整数据集的开始命名位置
 if vid_cap.isOpened():
     ret, frame = vid_cap.read()
 else:
     ret = False
 fps = vid_cap.get(cv2.CAP_PROP_FPS)
-timeF = 20  # 视频帧频率
+timeF = 33  # 视频帧频率
 print(fps)
 while ret:
     ret, frame = vid_cap.read()
